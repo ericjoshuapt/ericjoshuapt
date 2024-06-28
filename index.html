@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dein Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Willkommen auf meiner Website</h1>
+        <p>Ein kurzer Willkommensgruß und ein Hintergrundbild oder Video.</p>
+    </section>
+    <section id="about">
+        <h2>Über mich</h2>
+        <p>Ein paar Sätze über dich und deine Arbeit.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="projekt1.jpg" alt="Projekt 1"></div>
+            <div class="gallery-item"><img src="projekt2.jpg" alt="Projekt 2"></div>
+            <div class="gallery-item"><img src="projekt3.jpg" alt="Projekt 3"></div>
+            <!-- Weitere Projekte -->
+        </div>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Links zu deinen neuesten Blog-Artikeln.</p>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dein Name. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
